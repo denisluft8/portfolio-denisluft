@@ -6,19 +6,19 @@ export const Header = () => {
       <nav>
         <UlStyled>
           <li>
-            <a href="">HOME</a>
+            <a href="#home">HOME</a>
           </li>
           <li>
-            <a href="">SOBRE MIM</a>
+            <a href="#about">SOBRE MIM</a>
           </li>
           <li>
-            <a href="">SKILLS</a>
+            <a href="#skills">SKILLS</a>
           </li>
           <li>
-            <a href="">PROJETOS</a>
+            <a href="#projects">PROJETOS</a>
           </li>
           <li>
-            <a href="">CONTATOS</a>
+            <a href="#contact">CONTATO</a>
           </li>
         </UlStyled>
       </nav>

@@ -9,14 +9,27 @@ export const GlobalStyle = createGlobalStyle`
 
 *{
   height: 100%;
-  overflow-y: hidden;
+
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: #020202;
-    font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  padding: 0;
+  background: #020202;
+  font-family: 'Source Code Pro', monospace;
+
+  ::-webkit-scrollbar {
+  width: 07px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #632038;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  }
   }
 
 `;
