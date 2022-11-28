@@ -1911,6 +1911,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"portfolio-denisluft@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "portfolio-denisluft@workspace:."
+  dependencies:
+    "@types/react": latest
+    "@types/react-dom": latest
+    "@types/styled-components": ^5.1.26
+    "@vitejs/plugin-react": ^2.2.0
+    emailjs: ^4.0.1
+    emailjs-com: ^3.2.0
+    gh-pages: ^4.0.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    styled-components: ^5.3.6
+    typescript: ^4.6.4
+    vite: ^3.2.3
+  languageName: unknown
+  linkType: soft
+
 "postcss-value-parser@npm:^4.0.2":
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
@@ -1928,25 +1947,6 @@ __metadata:
   checksum: 62782723a385f92b7525f66d29614624de7c5643855423db3a5efd9287e677650300192749adddbbb6734cea9b1d5f5fd4f6ea00ca3f9a95dbbb88f835f5ca64
   languageName: node
   linkType: hard
-
-"potfolio-denis@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "potfolio-denis@workspace:."
-  dependencies:
-    "@types/react": latest
-    "@types/react-dom": latest
-    "@types/styled-components": ^5.1.26
-    "@vitejs/plugin-react": ^2.2.0
-    emailjs: ^4.0.1
-    emailjs-com: ^3.2.0
-    gh-pages: ^4.0.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    styled-components: ^5.3.6
-    typescript: ^4.6.4
-    vite: ^3.2.3
-  languageName: unknown
-  linkType: soft
 
 "promise-inflight@npm:^1.0.1":
   version: 1.0.1
