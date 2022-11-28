@@ -287,12 +287,14 @@ Error generating stack: `+i.message+`
   align-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 10%;
+  padding-right: 10%;
 
   @media (max-width: 768px) {
-    height: fit-content;
     flex-direction: column;
+  }
+  @media (max-width: 1120px) {
+    height: fit-content;
   }
 `,pn=Re.a`
   height: 300px;
