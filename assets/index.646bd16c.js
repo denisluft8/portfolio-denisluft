@@ -52,10 +52,15 @@ Error generating stack: `+i.message+`
   left: 0;
 
   @media (max-width: 768px) {
-    justify-content: center;
-    align-content: center;
     padding: 0;
     margin: 0;
+
+    & > nav {
+      justify-content: center;
+      align-content: center;
+      display: flex;
+      width: 100%;
+    }
   }
 `,im=Re.ul`
   display: flex;
@@ -279,6 +284,7 @@ Error generating stack: `+i.message+`
     margin: 0;
     & > h1 {
       font-size: 3.5em;
+      text-align: center;
     }
   }
 `,Ym=()=>N(Wm,{id:"home",children:fe(Qm,{children:[N("h1",{children:"D\xEAnis Luft"}),N("h2",{children:"Desenvolvedor Front-End"})]})}),Gm=Re.div`
