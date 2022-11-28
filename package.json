@@ -1,7 +1,7 @@
 {
   "name": "portfolio-denisluft",
-  "homepage": "https://denisluft8.github.io/portfolio-denisluft",
-  "private": true,
+  "homepage": "https://denisluft8.github.io/portfolio-denisluft/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
