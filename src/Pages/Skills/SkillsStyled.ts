@@ -12,5 +12,6 @@ export const SkillsStyled = styled.div`
     height: fit-content;
     flex-direction: column;
     margin-bottom: 80px;
+    margin-top: 60px;
   }
 `;

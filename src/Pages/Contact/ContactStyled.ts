@@ -10,7 +10,7 @@ export const ContactStyled = styled.div`
   @media (max-width: 768px) {
     height: fit-content;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
   }
 `;
