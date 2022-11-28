@@ -52,11 +52,10 @@ Error generating stack: `+i.message+`
   left: 0;
 
   @media (max-width: 768px) {
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     padding: 0;
     margin: 0;
-    padding-left: 1.4em;
   }
 `,im=Re.ul`
   display: flex;
@@ -80,7 +79,7 @@ Error generating stack: `+i.message+`
   }
 
   @media (max-width: 768px) {
-    gap: 16px;
+    gap: 12px;
     padding: 0;
     & > li {
       & > a {
@@ -102,6 +101,7 @@ Error generating stack: `+i.message+`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 20px;
 `,mm=Re.img`
   width: 300px;
   height: 300px;
@@ -141,7 +141,6 @@ Error generating stack: `+i.message+`
     flex-direction: column;
     margin-top: 40px;
     margin-bottom: 40px;
-    background-color: #632038;
   }
 `,Sm=Re.div`
   border: 6px solid #632038;
@@ -158,7 +157,7 @@ Error generating stack: `+i.message+`
   }
 
   @media (max-width: 768px) {
-    width: fit-content;
+    width: 350px;
     height: 350px;
     background-color: #020202;
 
@@ -239,7 +238,9 @@ Error generating stack: `+i.message+`
   }
 
   @media (max-width: 768px) {
+    width: 362px;
     & > form {
+      margin: 0;
       padding: 6px;
     }
   }
@@ -277,7 +278,7 @@ Error generating stack: `+i.message+`
     align-items: center;
     margin: 0;
     & > h1 {
-      font-size: 4em;
+      font-size: 3.5em;
     }
   }
 `,Ym=()=>N(Wm,{id:"home",children:fe(Qm,{children:[N("h1",{children:"D\xEAnis Luft"}),N("h2",{children:"Desenvolvedor Front-End"})]})}),Gm=Re.div`
@@ -338,6 +339,7 @@ Error generating stack: `+i.message+`
     }
 
     & > img {
+      height: 260px;
     }
   }
 `,Km=()=>fe(Gm,{id:"projects",children:[fe(pn,{href:"https://denisluft8.github.io/rarotube/",target:"_blank",children:[N("img",{src:Am}),N("p",{children:"Plataforma de videoaulas. Desenvolvido com ReactJS"})]}),fe(pn,{href:"https://denisluft8.github.io/user-data-react",target:"_blank",children:[N("img",{src:Mm}),N("p",{children:"Manipula\xE7\xE3o de tabela. Desenvolvido com Typescript e React "})]}),fe(pn,{href:"https://denisluft8.github.io/find-github-user/",target:"_blank",children:[N("img",{src:Nm}),N("p",{children:"P\xE1gina para encontrar dados de usu\xE1rios do github pelo nome de usu\xE1rio. Desenvolvido com Javascript"})]}),fe(pn,{href:"https://denisluft8.github.io/gif-search/",target:"_blank",children:[N("img",{src:Pm}),N("p",{children:"P\xE1gina utilizando API do GIPHY para buscar gifs. Desenvolvido com JavaScript"})]}),fe(pn,{href:"https://denisluft8.github.io/Product-Land/",target:"_blank",children:[N("img",{src:Em}),N("p",{children:"Product Landing Page feito para o curso Responsive Web Design da FreeCodeCamp. Desenvolvido com HTML e CSS"})]}),fe(pn,{href:"https://denisluft8.github.io/ignitelab-ds/",target:"_blank",children:[N("img",{src:Rm}),N("p",{children:"Design system do Ignite Lab. Desenvolvido com Typescript e React"})]})]}),Xm=Re.div`
