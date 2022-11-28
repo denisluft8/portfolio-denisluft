@@ -37,7 +37,7 @@ export const NameCard = styled.div`
     align-items: center;
     margin: 0;
     & > h1 {
-      font-size: 4em;
+      font-size: 3.5em;
     }
   }
 `;

@@ -13,11 +13,10 @@ export const HeaderStyled = styled.header`
   left: 0;
 
   @media (max-width: 768px) {
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     padding: 0;
     margin: 0;
-    padding-left: 1.4em;
   }
 `;
 
@@ -43,7 +42,7 @@ export const UlStyled = styled.ul`
   }
 
   @media (max-width: 768px) {
-    gap: 16px;
+    gap: 12px;
     padding: 0;
     & > li {
       & > a {

@@ -60,6 +60,7 @@ export const ImgContainer = styled.a`
     }
 
     & > img {
+      height: 260px;
     }
   }
 `;
