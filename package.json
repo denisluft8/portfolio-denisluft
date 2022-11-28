@@ -1,9 +1,9 @@
 {
   "name": "potfolio-denis",
+  "homepage": "https://denisluft8.github.io/portolio-denisluft",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://denisluft8.github.io/portfolio-denisluft",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
