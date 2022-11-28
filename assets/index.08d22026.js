@@ -286,6 +286,9 @@ Error generating stack: `+i.message+`
       font-size: 3.5em;
       text-align: center;
     }
+    &>h2{
+      text-align: center;
+    }
   }
 `,Ym=()=>N(Wm,{id:"home",children:fe(Qm,{children:[N("h1",{children:"D\xEAnis Luft"}),N("h2",{children:"Desenvolvedor Front-End"})]})}),Gm=Re.div`
   height: 100%;
