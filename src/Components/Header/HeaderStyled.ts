@@ -13,10 +13,15 @@ export const HeaderStyled = styled.header`
   left: 0;
 
   @media (max-width: 768px) {
-    justify-content: center;
-    align-content: center;
     padding: 0;
     margin: 0;
+
+    & > nav {
+      justify-content: center;
+      align-content: center;
+      display: flex;
+      width: 100%;
+    }
   }
 `;
 
