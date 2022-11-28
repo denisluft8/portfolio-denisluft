@@ -88,7 +88,7 @@ Error generating stack: `+i.message+`
     padding: 0;
     & > li {
       & > a {
-        font-size: 16px;
+        font-size: 14px;
       }
     }
   }
