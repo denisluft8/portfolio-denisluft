@@ -7,16 +7,11 @@ export const About = () => {
       <AboutContainer>
         <ProfileStyled src={img} />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          dignissim sem sed nulla blandit malesuada. Nulla at pharetra dui.
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia curae; Aliquam varius, enim volutpat aliquam
-          vestibulum, ligula est interdum nibh, vel volutpat magna erat sed
-          ligula. Mauris suscipit tellus eu sagittis rhoncus. Nam cursus magna
-          id ornare fermentum. Suspendisse id eros nulla. Sed quis aliquet
-          lacus. Fusce pulvinar pulvinar viverra. Proin sit amet ante enim.
-          Vivamus elementum, risus id sodales pellentesque, nulla nulla
-          efficitur lacus, sit amet rutrum neque augue blandit odio.
+          Olá, me chamo Dênis Luft, sou natural de Campos Novos mas atualmente
+          resido em Florianópolis. Em 2021 me formei em Análise e
+          Desenvolvimento de Sistemas e desde então venho me dedicando e
+          aperfeiçoando em tecnologias como Typescript e React com o intuíto de
+          transição de carreira como Desenvolvedor Front-End.
         </p>
       </AboutContainer>
     </AboutStyled>

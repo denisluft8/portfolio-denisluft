@@ -7,4 +7,10 @@ export const SkillsStyled = styled.div`
   align-items: center;
   gap: 40px;
   color: white;
+
+  @media (max-width: 768px) {
+    height: fit-content;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
 `;

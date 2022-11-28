@@ -8,14 +8,23 @@ export const HeaderStyled = styled.header`
   position: fixed;
   width: 100%;
   height: 52px;
+  z-index: 99;
   top: 0;
   left: 0;
+
+  @media (max-width: 768px) {
+    justify-content: space-between;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    padding-left: 1.4em;
+  }
 `;
 
 export const UlStyled = styled.ul`
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 24px;
   color: #e5e7eb;
 
   & > li {
@@ -23,9 +32,23 @@ export const UlStyled = styled.ul`
     text-decoration: none;
 
     & > a {
-      font-size: 18px;
+      font-size: 20px;
       color: inherit;
       text-decoration: none;
+
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    gap: 16px;
+    padding: 0;
+    & > li {
+      & > a {
+        font-size: 16px;
+      }
     }
   }
 `;

@@ -8,6 +8,10 @@ export const HomeStyled = styled.div`
   margin-top: 50px;
   display: flex;
   justify-content: flex-end;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 export const NameCard = styled.div`
@@ -27,5 +31,13 @@ export const NameCard = styled.div`
     height: fit-content;
     margin: 0;
     margin-bottom: 60px;
+  }
+
+  @media (max-width: 768px) {
+    align-items: center;
+    margin: 0;
+    & > h1 {
+      font-size: 4em;
+    }
   }
 `;

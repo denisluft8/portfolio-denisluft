@@ -29,7 +29,6 @@ export const Skills = () => {
         <p>Proativo</p>
         <p>Confiável</p>
         <p>Autodidata</p>
-        <p>Flexível</p>
         <p>Ético</p>
         <p>Motivado</p>
       </Container>

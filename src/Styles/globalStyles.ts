@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
 *{
   height: 100%;
-
+  
 }
 
 body {
@@ -21,15 +21,19 @@ body {
   ::-webkit-scrollbar {
   width: 07px;
 }
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #632038;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-  }
-  }
+}
+
+}
 
 `;

@@ -1,7 +1,5 @@
 import { Header } from "./Components/Header/Header";
-import { About } from "./Pages/About/About";
-import { Home } from "./Pages/Home/Home";
-import { Skills } from "./Pages/Skills/Skills";
+import { About, Contact, Home, Projects, Skills } from "./Pages";
 import { GlobalStyle } from "./Styles/globalStyles";
 
 function App() {
@@ -11,7 +9,9 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Skills/>
+      <Skills />
+      <Projects />
+      <Contact/>
     </>
   );
 }

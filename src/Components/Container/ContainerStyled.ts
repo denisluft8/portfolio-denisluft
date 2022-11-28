@@ -7,7 +7,6 @@ export const ContainerStyled = styled.div<ContainerProps>`
   background: rgb(89, 29, 50, 0.6);
   box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2),
     inset 1px 1px 0px rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px);
   border-radius: 10px;
   display: flex;
   justify-content: center;

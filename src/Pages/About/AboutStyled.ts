@@ -13,6 +13,11 @@ export const ProfileStyled = styled.img`
   height: 300px;
   border-radius: 50%;
   margin-bottom: 18px;
+
+  @media (max-width: 768px) {
+    width: 250px;
+    height: 250px;
+  }
 `;
 export const AboutContainer = styled.div`
   height: fit-content;
@@ -27,5 +32,8 @@ export const AboutContainer = styled.div`
     color: white;
     font-size: 18px;
     margin: 8px;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
   }
 `;
