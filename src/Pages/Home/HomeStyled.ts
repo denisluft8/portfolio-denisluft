@@ -40,5 +40,8 @@ export const NameCard = styled.div`
       font-size: 3.5em;
       text-align: center;
     }
+    &>h2{
+      text-align: center;
+    }
   }
 `;
