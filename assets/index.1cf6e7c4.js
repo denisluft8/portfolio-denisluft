@@ -144,7 +144,7 @@ Error generating stack: `+i.message+`
   @media (max-width: 768px) {
     height: fit-content;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
   }
 `,Sm=Re.div`
@@ -302,6 +302,8 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    margin-top: 60px;
+
   }
   @media (max-width: 1120px) {
     height: fit-content;
@@ -394,6 +396,7 @@ Error generating stack: `+i.message+`
     height: fit-content;
     flex-direction: column;
     margin-bottom: 80px;
+    margin-top: 60px;
   }
 `,qm=()=>fe(Jm,{id:"skills",children:[fe(ga,{title:"Hard Skills",children:[N("img",{src:Tm}),N("img",{src:Cm}),N("img",{src:Lm}),N("img",{src:jm}),N("img",{src:$m}),N("img",{src:Dm}),N("img",{src:Im})]}),fe(ga,{title:"Soft Skills",children:[N("p",{children:"Focado"}),N("p",{children:"Comunicativo"}),N("p",{children:"Flex\xEDvel"}),N("p",{children:"Proativo"}),N("p",{children:"Confi\xE1vel"}),N("p",{children:"Autodidata"}),N("p",{children:"\xC9tico"}),N("p",{children:"Motivado"})]})]}),bm=rm`
 @font-face {
