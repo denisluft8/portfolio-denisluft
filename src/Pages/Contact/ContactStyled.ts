@@ -14,7 +14,7 @@ export const ContactStyled = styled.div`
     margin-bottom: 40px;
   }
 
-  @media (max-width: 1120px) {
+  @media (max-width: 1000px) {
     height: fit-content;
     flex-direction: column;
     margin-bottom: 80px;
@@ -36,7 +36,7 @@ export const ContactLinks = styled.div`
     margin-left: 28px;
   }
 
-  @media (max-width: 1120px) {
+  @media (max-width: 1000px) {
     width: 350px;
     height: 350px;
     background-color: #020202;
@@ -133,7 +133,7 @@ export const InputContainer = styled.div`
     animation-iteration-count: infinite;
   }
 
-  @media (max-width: 1120px) {
+  @media (max-width: 1000px) {
     width: 362px;
     margin-bottom: 40px;
     & > form {
