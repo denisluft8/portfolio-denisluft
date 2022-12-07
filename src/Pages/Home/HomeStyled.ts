@@ -12,6 +12,7 @@ export const HomeStyled = styled.div`
   @media (max-width: 768px) {
     justify-content: center;
   }
+  
 `;
 
 export const NameCard = styled.div`

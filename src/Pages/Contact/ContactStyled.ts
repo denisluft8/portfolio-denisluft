@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const ContactStyled = styled.div`
   height: 100%;
@@ -12,6 +12,13 @@ export const ContactStyled = styled.div`
     flex-direction: column;
     margin-top: 60px;
     margin-bottom: 40px;
+  }
+
+  @media (max-width: 1120px) {
+    height: fit-content;
+    flex-direction: column;
+    margin-bottom: 80px;
+    margin-top: 60px;
   }
 `;
 
@@ -29,7 +36,7 @@ export const ContactLinks = styled.div`
     margin-left: 28px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1120px) {
     width: 350px;
     height: 350px;
     background-color: #020202;
@@ -58,12 +65,18 @@ export const IconsDiv = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1120px) {
     & > a > img {
       height: 70px;
     }
   }
 `;
+export const FadeInAnimation = keyframes`  
+  0% { opacity: 0.7; }
+  50% { opacity: 1; }
+  100% { opacity: 0.7; }
+`;
+
 export const InputContainer = styled.div`
   background-color: #632038;
   height: 512px;
@@ -112,9 +125,17 @@ export const InputContainer = styled.div`
       font-family: "Courier New", Courier, monospace;
     }
   }
+  & > span {
+    padding-top: 30px;
+    color: #f3f4f6;
+    animation-name: ${FadeInAnimation};
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1120px) {
     width: 362px;
+    margin-bottom: 40px;
     & > form {
       margin: 0;
       padding: 6px;

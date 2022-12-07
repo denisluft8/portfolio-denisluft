@@ -16,14 +16,28 @@ export const Contact = () => {
     reply_to: "",
   });
 
+  const [message, setMessage] = useState("");
+  const [isSent, setIsSent] = useState(false);
+
   const onSubmit = (e: any) => {
     e.preventDefault();
     send("service_46h5ozb", "template_9o5kly7", toSend, "a1jkV88pLuCwTfuqm")
       .then((response) => {
-        console.log("SUCCESS!", response.status, response.text);
+        setMessage("Enviado");
+        setIsSent(true);
+        const timing = setTimeout(() => {
+          setIsSent(false);
+          setToSend({
+            from_name: "",
+            to_name: "Dênis",
+            message: "",
+            reply_to: "",
+          });
+        }, 1500);
+        return () => clearTimeout(timing);
       })
       .catch((err) => {
-        console.log("FAILED...", err);
+        console.log("Erro", err);
       });
   };
 
@@ -75,6 +89,7 @@ export const Contact = () => {
           />
           <button type="submit">Enviar</button>
         </form>
+          {isSent ? <span >{message}</span> : <></>}
       </InputContainer>
     </ContactStyled>
   );
