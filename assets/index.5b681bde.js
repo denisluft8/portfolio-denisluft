@@ -148,7 +148,7 @@ Error generating stack: `+i.message+`
     margin-bottom: 40px;
   }
 
-  @media (max-width: 1120px) {
+  @media (max-width: 1000px) {
     height: fit-content;
     flex-direction: column;
     margin-bottom: 80px;
@@ -168,7 +168,7 @@ Error generating stack: `+i.message+`
     margin-left: 28px;
   }
 
-  @media (max-width: 1120px) {
+  @media (max-width: 1000px) {
     width: 350px;
     height: 350px;
     background-color: #020202;
@@ -260,7 +260,7 @@ Error generating stack: `+i.message+`
     animation-iteration-count: infinite;
   }
 
-  @media (max-width: 1120px) {
+  @media (max-width: 1000px) {
     width: 362px;
     margin-bottom: 40px;
     & > form {
@@ -372,23 +372,7 @@ Error generating stack: `+i.message+`
       height: 260px;
     }
   }
-  @media (max-width: 1120px) {
-    height: fit-content;
-    position: static;
-    flex-direction: column;
-    text-decoration: none;
-    background-color: #632038;
-
-    & > p {
-      position: static;
-      opacity: 1;
-      width: 300px;
-    }
-
-    & > img {
-      height: 260px;
-    }
-  }
+  
 `,Zm=()=>se(Xm,{id:"projects",children:[se(pn,{href:"https://denisluft8.github.io/rarotube/",target:"_blank",children:[P("img",{src:Im}),P("p",{children:"Plataforma de videoaulas. Desenvolvido com ReactJS"})]}),se(pn,{href:"https://denisluft8.github.io/user-data-react",target:"_blank",children:[P("img",{src:Um}),P("p",{children:"Manipula\xE7\xE3o de tabela. Desenvolvido com Typescript e React "})]}),se(pn,{href:"https://denisluft8.github.io/find-github-user/",target:"_blank",children:[P("img",{src:Tm}),P("p",{children:"P\xE1gina para encontrar dados de usu\xE1rios do github pelo nome de usu\xE1rio. Desenvolvido com Javascript"})]}),se(pn,{href:"https://denisluft8.github.io/gif-search/",target:"_blank",children:[P("img",{src:zm}),P("p",{children:"P\xE1gina utilizando API do GIPHY para buscar gifs. Desenvolvido com JavaScript"})]}),se(pn,{href:"https://denisluft8.github.io/Product-Land/",target:"_blank",children:[P("img",{src:Pm}),P("p",{children:"Product Landing Page feito para o curso Responsive Web Design da FreeCodeCamp. Desenvolvido com HTML e CSS"})]}),se(pn,{href:"https://denisluft8.github.io/ignitelab-ds/",target:"_blank",children:[P("img",{src:Om}),P("p",{children:"Design system do Ignite Lab. Desenvolvido com Typescript e React"})]})]}),Jm=Re.div`
   width: ${e=>e.width};
   height: ${e=>e.height};
