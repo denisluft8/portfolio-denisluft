@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const ProjectStyled = styled.div`
-  height: 100%;
+  min-height: 100%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -17,7 +18,7 @@ export const ProjectStyled = styled.div`
   @media (max-width: 1120px) {
     height: fit-content;
   }
-`;
+`
 
 export const ImgContainer = styled.a`
   height: 300px;
@@ -64,5 +65,4 @@ export const ImgContainer = styled.a`
       height: 260px;
     }
   }
-  
-`;
+`
