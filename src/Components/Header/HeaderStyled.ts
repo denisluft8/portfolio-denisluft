@@ -1,58 +1,144 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
-export const HeaderStyled = styled.header`
-  display: flex;
-  justify-content: center;
-  background: rgba(100, 100, 100, 0.1);
-  backdrop-filter: blur(10px);
+const fadeIn = keyframes`
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+`;
+
+export const HeaderContainer = styled.div<{
+  isHidden: boolean;
+  backgroundTransparent: boolean;
+  display?: string;
+}>`
   position: fixed;
-  width: 100%;
-  height: 52px;
-  z-index: 99;
+  background: ${(props) =>
+    props.backgroundTransparent ? "transparent" : "rgba(100, 100, 100, 0.1)"};
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
   top: 0;
-  left: 0;
+  transition: transform 0.3s ease, background-color 1.2s ease;
+  transform: translateY(${(props) => (props.isHidden ? "-100%" : "0")});
+  width: 100%;
+  z-index: 998;
 
-  @media (max-width: 768px) {
-    padding: 0;
-    margin: 0;
+  & > ul {
+    list-style: none;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    font-weight: bold;
 
-    & > nav {
-      justify-content: center;
-      align-content: center;
+    & > li {
+      height: auto;
+      & > a {
+        transition: 0.3s ease;
+        font-size: 20px;
+        color: #4767a4;
+        text-decoration: none;
+
+        &:hover {
+          color: #7f2948;
+          transition: 0.5s ease;
+        }
+      }
+    }
+  }
+  @media (max-width: 500px) {
+    transform: none;
+    width: 80%;
+    right: 0;
+    background: #111111d9;
+    height: 100%;
+    display: ${(props) => props.display};
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+    transition: width 0.35s ease-in-out;
+    animation-name: ${fadeIn};
+    animation-duration: 0.5s;
+    overflow: hidden;
+
+    & > ul {
       display: flex;
-      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: -10px;
+
+      & > li {
+        & > a {
+          font-size: 24px;
+          color: #4767a4;
+          text-decoration: none;
+
+          &:hover {
+            color: #7f2948;
+            transition: 0.5s ease;
+          }
+        }
+      }
     }
   }
 `;
 
-export const UlStyled = styled.ul`
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  color: #e5e7eb;
+interface BurguerProps {
+  transform1?: string;
+  transform2?: string;
+  opacity?: string;
+}
 
-  & > li {
-    list-style: none;
-    text-decoration: none;
+export const BurguerContainer = styled.div`
+  display: none;
 
-    & > a {
-      font-size: 20px;
-      color: inherit;
-      text-decoration: none;
-
-      &:hover {
-        font-weight: bold;
-      }
-    }
+  @media (max-width: 500px) {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 12px;
+    padding-right: 10px;
+    z-index: 999;
   }
+`;
+export const Burguer1 = styled.div<BurguerProps>`
+  @media (max-width: 500px) {
+    width: 35px;
+    height: 5px;
+    background-color: #4767a4;
 
-  @media (max-width: 768px) {
-    gap: 12px;
-    padding: 0;
-    & > li {
-      & > a {
-        font-size: 14px;
-      }
-    }
+    margin: 6px 0;
+    transition: 0.4s;
+    transform: ${(props) => props.transform1};
+  }
+`;
+export const Burguer2 = styled.div<BurguerProps>`
+  @media (max-width: 500px) {
+    width: 35px;
+    height: 5px;
+    background-color: #4767a4;
+    margin: 6px 0;
+    transition: 0.4s;
+    opacity: ${(props) => props.opacity};
+  }
+`;
+export const Burguer3 = styled.div<BurguerProps>`
+  @media (max-width: 500px) {
+    width: 35px;
+    height: 5px;
+    background-color: #4767a4;
+    margin: 6px 0;
+    transition: 0.4s;
+    transform: ${(props) => props.transform1};
   }
 `;

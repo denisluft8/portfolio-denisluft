@@ -56,7 +56,7 @@ export const Contact = () => {
           <a href="https://github.com/denisluft8" target="_blank">
             <img src={gitIcon} />
           </a>
-          <a href="mailto:denisluft8@gmail.com" target="_blank">
+          <a href="https://whatsa.me/5548988047338" target="_blank">
             <img src={gmailIcon} />
           </a>
         </IconsDiv>

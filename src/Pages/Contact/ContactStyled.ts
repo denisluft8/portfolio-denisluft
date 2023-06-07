@@ -20,10 +20,13 @@ export const ContactStyled = styled.div`
     margin-bottom: 80px;
     margin-top: 60px;
   }
+  @media (max-width: 400px) {
+    padding-left: 20px;
+  }
 `;
 
 export const ContactLinks = styled.div`
-  border: 6px solid #632038;
+  border: 6px solid #4767a4;
   height: 500px;
   width: 450px;
   position: relative;
@@ -34,6 +37,10 @@ export const ContactLinks = styled.div`
     height: fit-content;
     margin: 20px;
     margin-left: 28px;
+  }
+  @media (max-width: 400px) {
+    height: auto;
+    max-width: 300px;
   }
 
   @media (max-width: 1000px) {
@@ -64,7 +71,11 @@ export const IconsDiv = styled.div`
       height: 100px;
     }
   }
-
+  @media (max-width: 400px) {
+    & > a {
+      margin: 6px;
+    }
+  }
   @media (max-width: 1120px) {
     & > a > img {
       height: 70px;
@@ -78,7 +89,7 @@ export const FadeInAnimation = keyframes`
 `;
 
 export const InputContainer = styled.div`
-  background-color: #632038;
+  background-color: #4767a4;
   height: 512px;
   width: 450px;
 
@@ -123,6 +134,25 @@ export const InputContainer = styled.div`
       height: 50px;
       font-size: 20px;
       font-family: "Courier New", Courier, monospace;
+    }
+  }
+  @media (max-width: 400px) {
+    max-width: 312px;
+    & > form {
+      align-items: center;
+      & > input {
+        height: 30px;
+        width: 250px;
+      }
+
+      & > textarea {
+        width: 250px;
+      }
+      & > button {
+        width: 240px;
+
+        font-family: "Courier New", Courier, monospace;
+      }
     }
   }
   & > span {

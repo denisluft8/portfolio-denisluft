@@ -9,8 +9,9 @@ export const GlobalStyle = createGlobalStyle`
 
 *{
   height: 100%;
-  
 }
+
+
 
 body {
   margin: 0;
@@ -18,9 +19,11 @@ body {
   background: #020202;
   font-family: 'Source Code Pro', monospace;
 
+
   ::-webkit-scrollbar {
   width: 07px;
 }
+
 
 ::-webkit-scrollbar-track {
   background: transparent;

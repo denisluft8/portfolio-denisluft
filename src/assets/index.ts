@@ -14,8 +14,51 @@ import styledComponent from "../assets/styled-components-1.svg";
 import tailwind from "../assets/tailwindcss.svg";
 import ts from "../assets/typescript.svg";
 import userData from "../assets/user-data.png";
+import balance from "./balance.svg";
+import book from "./book.svg";
+import bubble from "./bubble.svg";
+import coffee from "./coffee.svg";
+import eraser from "./eraser.svg";
+import gear from "./gear.svg";
+import lightbulb from "./lightbulb.svg";
+import lock from "./lock.svg";
+import target from "./target.svg";
+import decaltakv from "../assets/decaltakV.mp4";
+import finiV from "./finiV.mp4";
+import fortmixV from "./fortmixV.mp4";
+import gifV from "./gifV.mp4";
+import githubV from "./githubV.mp4";
+import rarotubeV from "./rarotubeV.mp4";
+import reportPageV from "./report-pageV.mp4";
+import userdataV from "./user-dataV.mp4";
+import fortmix from "./fortmix.png";
+import decaltakV from "./decaltakV.mp4";
+import decaltak from "./decaltak.png";
+
+import reportPage from "./report-page.png";
 
 export {
+  decaltak,
+  decaltakV,
+  finiV,
+  fortmix,
+  fortmixV,
+  gifV,
+  githubV,
+  rarotubeV,
+  reportPage,
+  reportPageV,
+  userdataV,
+  balance,
+  book,
+  bubble,
+  coffee,
+  eraser,
+  gear,
+  lightbulb,
+  lock,
+  target,
+  decaltakv,
   css,
   fini,
   gmailIcon,
