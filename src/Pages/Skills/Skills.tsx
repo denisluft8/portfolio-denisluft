@@ -24,8 +24,18 @@ import {
   ts,
 } from "../../assets/index";
 import { SectionName } from "../../Components/SectionName/SectionName";
+import {
+  LanguageContext,
+  LanguageContextProps,
+} from "../../contexts/LanguageContext";
+import ptTranslations from "../../locales/pt.json";
+import enTranslations from "../../locales/en.json";
+import { useContext } from "react";
 
 export const Skills = () => {
+  const { language, setLanguage } =
+    useContext<LanguageContextProps>(LanguageContext);
+  const translations = language === "pt" ? ptTranslations : enTranslations;
   return (
     <>
       <SectionName text="Skills" />
@@ -47,39 +57,39 @@ export const Skills = () => {
           <ChildrenContainer>
             <SoftContainer>
               <img src={target} />
-              <p>Focado</p>
+              <p>{translations.softA}</p>
             </SoftContainer>
             <SoftContainer>
               <img src={eraser} />
-              <p>Flexível</p>
+              <p>{translations.softB}</p>
             </SoftContainer>
             <SoftContainer>
               <img src={gear} />
-              <p>Proativo</p>
+              <p>{translations.softC}</p>
             </SoftContainer>
             <SoftContainer>
               <img src={lightbulb} />
-              <p>Criativo</p>
+              <p>{translations.softD}</p>
             </SoftContainer>
             <SoftContainer>
               <img src={lock} />
-              <p>Confiável</p>
+              <p>{translations.softE}</p>
             </SoftContainer>
             <SoftContainer>
               <img src={book} />
-              <p>Autodidata</p>
+              <p>{translations.softF}</p>
             </SoftContainer>
             <SoftContainer>
               <img src={balance} />
-              <p>Ético</p>
+              <p>{translations.softG}</p>
             </SoftContainer>
             <SoftContainer>
               <img src={coffee} />
-              <p>Motivado</p>
+              <p>{translations.softH}</p>
             </SoftContainer>
             <SoftContainer>
               <img src={bubble} />
-              <p>Comunicativo</p>
+              <p>{translations.softI}</p>
             </SoftContainer>
           </ChildrenContainer>
         </ContainerStyled2>

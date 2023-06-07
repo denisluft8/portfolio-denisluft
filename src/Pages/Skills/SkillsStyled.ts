@@ -89,6 +89,7 @@ export const SoftContainer = styled.div`
   width: 90px;
   & > p {
     height: fit-content;
+    font-size: 14px;
   }
   & > img {
     height: fit-content;

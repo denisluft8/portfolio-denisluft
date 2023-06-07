@@ -18,12 +18,21 @@ import {
   userData,
   userdataV,
 } from "../../assets/index";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { SectionName } from "../../Components/SectionName/SectionName";
 import { ImgWithVideo } from "../../Components/ImgWithVideo/ImgWithVideo";
+import {
+  LanguageContext,
+  LanguageContextProps,
+} from "../../contexts/LanguageContext";
+import ptTranslations from "../../locales/pt.json";
+import enTranslations from "../../locales/en.json";
 
 export const Projects = () => {
   const [hovered, setHovered] = useState(false);
+  const { language, setLanguage } =
+    useContext<LanguageContextProps>(LanguageContext);
+  const translations = language === "pt" ? ptTranslations : enTranslations;
 
   const handleMouseEnter = () => {
     setHovered(true);
@@ -35,71 +44,55 @@ export const Projects = () => {
 
   return (
     <>
-      <SectionName color="#000" text="Projetos" />
+      <SectionName color="#000" text={translations.projects} />
       <ProjectStyled id="projects">
         <ImgWithVideo
           img={fortmix}
           video={fortmixV}
           link={"https://denisluft8.github.io/fortmix/"}
-          description={
-            "Landing Page desenvolvida para a construtora FortMix. Desenvolvida com React e Typescript."
-          }
+          description={translations.fortmix}
         />
         <ImgWithVideo
           img={reportPage}
           video={reportPageV}
           link={"https://denisluft8.github.io/report-page/"}
-          description={
-            "Página de relatório, contendo diversos gráficos cujos valores podem ser alterados em um arquivo de JSON. Desenvolvida com React e Javascript."
-          }
+          description={translations.report}
         />
         <ImgWithVideo
           img={raro}
           video={rarotubeV}
           link={"https://denisluft8.github.io/rarotube/"}
-          description={
-            "Plataforma de videoaulas. Desenvolvido com ReactJS e Typescript"
-          }
+          description={translations.raro}
         />
         <ImgWithVideo
           img={userData}
           video={userdataV}
           link={"https://denisluft8.github.io/user-data-react"}
-          description={
-            "Manipulação de tabela. Desenvolvido com Typescript e React"
-          }
+          description={translations.userdata}
         />
         <ImgWithVideo
           img={git}
           video={githubV}
           link={"https://denisluft8.github.io/find-github-user/"}
-          description={
-            "Página para encontrar dados de usuários do github pelo nome de usuário. Desenvolvido com Javascript"
-          }
+          description={translations.git}
         />
         <ImgWithVideo
           img={gif}
           video={gifV}
           link={"https://denisluft8.github.io/gif-search/"}
-          description={
-            "Página utilizando API do GIPHY para buscar gifs. Desenvolvido com JavaScript"
-          }
+          description={translations.gif}
         />
         <ImgWithVideo
           img={fini}
           video={finiV}
           link={"https://denisluft8.github.io/Product-Land/"}
-          description={
-            "Product Landing Page feito para o curso Responsive Web Design da FreeCodeCamp. Desenvolvido com HTML e CSS"
-          }
+          description={translations.fini}
         />
         <ImgWithVideo
           img={decaltak}
           video={decaltakv}
           link={"https://denisluft8.github.io/decaltak/"}
-          description={
-            "Landing Page desenvolvida para a empresa Decaltak Comunicação Visual. Desenvolvida com React e Typescript."
-          }
+          description={translations.decaltak}
         />
       </ProjectStyled>
     </>

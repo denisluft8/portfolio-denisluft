@@ -1,0 +1,33 @@
+{
+  "home": "Home",
+  "about": "Sobre Mim",
+  "skills": "Skills",
+  "projects": "Projetos",
+  "contact": "Contato",
+
+  "dev": "Desenvolvedor Front-End",
+  "description": "Olá! Me chamo Dênis Augusto Luft e sou um desenvolvedor de front-end apaixonado por tecnologia. Formado em Análise e Desenvolvimento de Sistemas, estou sempre em busca de aprimorar minhas habilidades. Tenho um grande interesse pelo mundo do front-end, e adoro criar interfaces atraentes e interativas. Minhas principais ferramentas de trabalho incluem HTML, CSS, TypeScript, JavaScript e React. Com essas tecnologias, sou capaz de transformar ideias e conceitos em produtos digitais incríveis. Sempre busco me manter atualizado sobre as últimas tendências e melhores práticas do desenvolvimento front-end, pois acredito que a aprendizagem contínua é essencial para aprimorar minhas habilidades e oferecer resultados de alta qualidade aos projetos em que estou envolvido. Estou constantemente procurando por novos desafios e oportunidades para aplicar meu conhecimento e criatividade no desenvolvimento de soluções web. Se você está procurando um desenvolvedor front-end apaixonado e comprometido, estou pronto para colaborar em projetos inovadores e fazer parte de uma equipe talentosa. Fique à vontade para explorar meu portfólio e conhecer alguns dos projetos nos quais trabalhei.",
+
+  "softA": "Focado",
+  "softB": "Flexível",
+  "softC": "Proativo",
+  "softD": "Criativo",
+  "softE": "Confiável",
+  "softF": "Autodidata",
+  "softG": "Ético",
+  "softH": "Motivado",
+  "softI": "Comunicativo",
+
+  "fortmix": "Landing Page desenvolvida para a construtora FortMix. Desenvolvida com React e TypeScript",
+  "report": "Página de relatório, contendo diversos gráficos cujos valores podem ser alterados em um arquivo de JSON. Desenvolvida com React e JavaScript",
+  "raro": "Plataforma de videoaulas. Desenvolvido com ReactJS e TypeScript",
+  "userdata": "Manipulação de tabela. Desenvolvido com TypeScript e React",
+  "git": "Página para encontrar dados de usuários do github pelo nome de usuário. Desenvolvido com JavaScript",
+  "gif": "Página utilizando API do GIPHY para buscar gifs. Desenvolvido com JavaScript",
+  "fini": "Product Landing Page feito para o curso Responsive Web Design da FreeCodeCamp. Desenvolvido com HTML e CSS",
+  "decaltak": "Landing Page desenvolvida para a empresa Decaltak Comunicação Visual. Desenvolvida com React e TypeScript",
+  "entercontact": "Entre em Contato",
+  "name": "Nome",
+  "msg": "Mensagem",
+  "send": "Enviar"
+}

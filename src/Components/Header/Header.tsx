@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import {
   Burguer1,
   Burguer2,
@@ -6,11 +6,21 @@ import {
   BurguerContainer,
   HeaderContainer,
 } from "./HeaderStyled";
+import { ToggleButtonComponent } from "../Toggle Button/ToggleButton";
+import {
+  LanguageContext,
+  LanguageContextProps,
+} from "../../contexts/LanguageContext";
+import ptTranslations from "../../locales/pt.json";
+import enTranslations from "../../locales/en.json";
 
 export const Header = () => {
   const [isHidden, setIsHidden] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [burguer, setBurguer] = useState(false);
+  const { language, setLanguage } =
+    useContext<LanguageContextProps>(LanguageContext);
+  const translations = language === "pt" ? ptTranslations : enTranslations;
 
   const handleClick = () => {
     burguer === false ? setBurguer(true) : setBurguer(false);
@@ -57,23 +67,26 @@ export const Header = () => {
           </li>
           <li>
             <a href="#about" onClick={() => handleClick()}>
-              SOBRE MIM
+              {translations.about.toUpperCase()}
             </a>
           </li>
           <li>
             <a href="#skills" onClick={() => handleClick()}>
-              SKILLS
+              {translations.skills.toUpperCase()}
             </a>
           </li>
           <li>
             <a href="#projects" onClick={() => handleClick()}>
-              PROJETOS
+              {translations.projects.toUpperCase()}
             </a>
           </li>
           <li>
             <a href="#contact" onClick={() => handleClick()}>
-              CONTATO
+              {translations.contact.toUpperCase()}
             </a>
+          </li>
+          <li>
+            <ToggleButtonComponent />
           </li>
         </ul>
       </HeaderContainer>

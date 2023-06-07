@@ -6,7 +6,13 @@ import {
 } from "./ContactStyled";
 import { gmailIcon, gitIcon, linkedinIcon } from "../../assets/index";
 import { send } from "emailjs-com";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import {
+  LanguageContext,
+  LanguageContextProps,
+} from "../../contexts/LanguageContext";
+import ptTranslations from "../../locales/pt.json";
+import enTranslations from "../../locales/en.json";
 
 export const Contact = () => {
   const [toSend, setToSend] = useState({
@@ -18,6 +24,9 @@ export const Contact = () => {
 
   const [message, setMessage] = useState("");
   const [isSent, setIsSent] = useState(false);
+  const { language, setLanguage } =
+    useContext<LanguageContextProps>(LanguageContext);
+  const translations = language === "pt" ? ptTranslations : enTranslations;
 
   const onSubmit = (e: any) => {
     e.preventDefault();
@@ -48,7 +57,7 @@ export const Contact = () => {
   return (
     <ContactStyled id="contact">
       <ContactLinks>
-        <h2>Entre em Contato</h2>
+        <h2>{translations.entercontact}</h2>
         <IconsDiv>
           <a href="https://www.linkedin.com/in/denisluft8/" target="_blank">
             <img src={linkedinIcon} />
@@ -66,7 +75,7 @@ export const Contact = () => {
           <input
             type="text"
             name="from_name"
-            placeholder="Nome"
+            placeholder={translations.name}
             value={toSend.from_name}
             onChange={handleChange}
             required
@@ -82,14 +91,14 @@ export const Contact = () => {
           />
           <textarea
             name="message"
-            placeholder="Mensagem"
+            placeholder={translations.msg}
             value={toSend.message}
             onChange={handleChange}
             required
           />
-          <button type="submit">Enviar</button>
+          <button type="submit">{translations.send}</button>
         </form>
-          {isSent ? <span >{message}</span> : <></>}
+        {isSent ? <span>{message}</span> : <></>}
       </InputContainer>
     </ContactStyled>
   );

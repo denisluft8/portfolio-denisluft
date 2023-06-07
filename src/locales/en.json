@@ -1,0 +1,33 @@
+{
+  "home": "Home",
+  "about": "About Me",
+  "skills": "Skills",
+  "projects": "Projects",
+  "contact": "Contact",
+
+  "dev": "Front-end Developer",
+  "description": "Hello! My name is Dênis Augusto Luft, and I am a front-end developer passionate about technology. I hold a degree in Systems Analysis and Development and am constantly seeking to improve my skills. I have a strong interest in the world of front-end development and enjoy creating attractive and interactive interfaces. My primary tools include HTML, CSS, TypeScript, JavaScript, and React. With these technologies, I am capable of turning ideas and concepts into amazing digital products. I always strive to stay updated on the latest trends and best practices in front-end development because I believe that continuous learning is essential to enhance my skills and deliver high-quality results to the projects I'm involved in. I am constantly seeking new challenges and opportunities to apply my knowledge and creativity to web development solutions. If you are looking for a passionate and dedicated front-end developer, I am ready to collaborate on innovative projects and be part of a talented team. Feel free to explore my portfolio and see some of the projects I have worked on.",
+
+  "softA": "Focused",
+  "softB": "Flexible",
+  "softC": "Proactive",
+  "softD": "Creative",
+  "softE": "Reliable",
+  "softF": "Self-taught",
+  "softG": "Ethical",
+  "softH": "Motivated",
+  "softI": "Communicative",
+
+  "fortmix": "Landing page developed for FortMix Construction Company. Built with React and TypeScript",
+  "report": "Report page featuring multiple charts with values that can be modified in a JSON file. Developed with React and JavaScript",
+  "raro": "Video tutorial platform. Developed with ReactJS and TypeScript",
+  "userdata": "Table manipulation. Developed with TypeScript and React",
+  "git": "Page to find GitHub user data by username. Developed with JavaScript",
+  "gif": "Page using the GIPHY API to search for GIFs. Developed with JavaScript",
+  "fini": "Product Landing Page created for the Responsive Web Design course by FreeCodeCamp. Developed with HTML and CSS",
+  "decaltak": "Landing Page developed for Decaltak Visual Communication company. Built with React and TypeScript",
+  "entercontact": "Get in touch",
+  "name": "Name",
+  "msg": "Message",
+  "send": "Send"
+}
