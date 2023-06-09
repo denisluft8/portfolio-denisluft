@@ -11,6 +11,10 @@ export const ProjectStyled = styled.div`
   background: #eee;
   padding: 100px 10%;
 
+  @media (max-width: 1066px) {
+    padding: 100px 0px;
+  }
+
   @media (max-width: 768px) {
     flex-direction: column;
     margin-top: 60px;

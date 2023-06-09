@@ -7,6 +7,7 @@ import {
 import ptTranslations from "../../locales/pt.json";
 import enTranslations from "../../locales/en.json";
 import { useContext } from "react";
+import { styled } from "styled-components";
 
 export const Home = () => {
   const { language, setLanguage } =
