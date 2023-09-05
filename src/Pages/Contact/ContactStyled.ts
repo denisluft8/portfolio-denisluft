@@ -156,19 +156,23 @@ export const InputContainer = styled.div`
     }
   }
   & > span {
-    padding-top: 30px;
     color: #f3f4f6;
+    display: block;
+    text-align: center;
+    max-height: 20px;
     animation-name: ${FadeInAnimation};
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    margin-top: -20px;
   }
 
   @media (max-width: 1000px) {
     width: 362px;
-    margin-bottom: 40px;
     & > form {
       margin: 0;
-      padding: 6px;
+    }
+    & > span {
+      margin: 0;
     }
   }
 `;

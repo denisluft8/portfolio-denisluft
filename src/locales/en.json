@@ -29,5 +29,7 @@
   "entercontact": "Get in touch",
   "name": "Name",
   "msg": "Message",
-  "send": "Send"
+  "send": "Send",
+  "sent": "Sent"
+
 }

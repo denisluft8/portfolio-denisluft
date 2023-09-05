@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
-export const SkillsStyled = styled.div`
+export const SkillsStyled = styled.section`
   height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
   color: white;
+  padding: 100px 10%;
 
   @media (max-width: 1120px) {
     padding: 60px 0px;

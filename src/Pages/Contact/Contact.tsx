@@ -30,9 +30,9 @@ export const Contact = () => {
 
   const onSubmit = (e: any) => {
     e.preventDefault();
-    send("service_46h5ozb", "template_9o5kly7", toSend, "a1jkV88pLuCwTfuqm")
+    send("service_yabrcct", "template_9o5kly7", toSend, "a1jkV88pLuCwTfuqm")
       .then((response) => {
-        setMessage("Enviado");
+        setMessage(translations.sent);
         setIsSent(true);
         const timing = setTimeout(() => {
           setIsSent(false);
@@ -98,10 +98,8 @@ export const Contact = () => {
           />
           <button type="submit">{translations.send}</button>
         </form>
-        {isSent ? <span>{message}</span> : <></>}
+        {isSent && <span>{message}</span>}
       </InputContainer>
     </ContactStyled>
   );
 };
-
-//service_46h5ozb

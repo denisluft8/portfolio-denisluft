@@ -29,5 +29,6 @@
   "entercontact": "Entre em Contato",
   "name": "Nome",
   "msg": "Mensagem",
-  "send": "Enviar"
+  "send": "Enviar",
+  "sent": "Enviado"
 }
