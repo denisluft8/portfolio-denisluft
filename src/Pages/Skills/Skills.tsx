@@ -18,10 +18,12 @@ import {
   lightbulb,
   lock,
   react,
+  storybook,
   styledComponent,
   tailwind,
   target,
   ts,
+  vue,
 } from "../../assets/index";
 import { SectionName } from "../../Components/SectionName/SectionName";
 import {
@@ -48,8 +50,10 @@ export const Skills = () => {
             <img src={js} />
             <img src={ts} />
             <img src={react} />
+            <img src={vue} />
             <img src={tailwind} />
             <img src={styledComponent} />
+            <img src={storybook} />
           </ChildrenContainer>
         </ContainerStyled>
         <ContainerStyled2>

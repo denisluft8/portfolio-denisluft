@@ -34,8 +34,9 @@ import userdataV from "./user-dataV.mp4";
 import fortmix from "./fortmix.png";
 import decaltakV from "./decaltakV.mp4";
 import decaltak from "./decaltak.png";
-
+import vue from "./vue.svg";
 import reportPage from "./report-page.png";
+import storybook from "./storybook.svg"
 
 export {
   decaltak,
@@ -74,5 +75,7 @@ export {
   styledComponent,
   tailwind,
   ts,
+  vue,
+  storybook,
   userData,
 };
