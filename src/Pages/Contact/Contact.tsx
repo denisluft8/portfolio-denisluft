@@ -30,7 +30,7 @@ export const Contact = () => {
 
   const onSubmit = (e: any) => {
     e.preventDefault();
-    send("service_yabrcct", "template_9o5kly7", toSend, "a1jkV88pLuCwTfuqm")
+    send("service_o0bhjbj", "template_9o5kly7", toSend, "a1jkV88pLuCwTfuqm")
       .then((response) => {
         setMessage(translations.sent);
         setIsSent(true);
