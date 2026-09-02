@@ -188,7 +188,7 @@ export const Hero = () => {
         <Availability>{t.hero.available}</Availability>
         <Greeting>{t.hero.greeting}</Greeting>
         <Name>
-          <span>&lt;</span>Dênis Luft {" "}<span>/&gt;</span>
+          <span>&lt;</span>Dênis Luft<span> /&gt;</span>
         </Name>
         {/* aria-live off: o efeito é decorativo, não deve ser lido letra a letra */}
         <Role aria-label={t.hero.roles.join(", ")}>
