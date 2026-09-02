@@ -1,6 +1,7 @@
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import { Card, VisuallyHidden } from "./ui/primitives";
+import { useAutoPreview } from "../hooks/useAutoPreview";
 import { useTranslation } from "../hooks/useTranslation";
 import { theme } from "../styles/theme";
 import type { Project } from "../data/projects";
@@ -149,8 +150,12 @@ const RepoLink = styled.a`
 export const ProjectCard = ({ project }: { project: Project }) => {
   const { t } = useTranslation();
   const videoRef = useRef<HTMLVideoElement>(null);
+  const cardRef = useRef<HTMLElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const copy = t.projectList[project.titleKey];
+
+  // No celular não há hover: o preview começa sozinho quando o card fica em tela
+  const autoPlay = useAutoPreview(cardRef);
 
   const start = useCallback(() => {
     const video = videoRef.current;
@@ -169,9 +174,16 @@ export const ProjectCard = ({ project }: { project: Project }) => {
     }
   }, []);
 
+  useEffect(() => {
+    if (!project.video) return;
+    if (autoPlay) start();
+    else stop();
+  }, [autoPlay, project.video, start, stop]);
+
   return (
     <Wrapper
       as="article"
+      ref={cardRef}
       onMouseEnter={start}
       onMouseLeave={stop}
       onFocus={start}
