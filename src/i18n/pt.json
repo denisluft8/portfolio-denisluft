@@ -1,0 +1,203 @@
+{
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "projects": "Projetos",
+    "about": "Sobre",
+    "skills": "Stack",
+    "contact": "Contato",
+    "menu": "Abrir menu de navegação",
+    "close": "Fechar menu de navegação",
+    "langLabel": "Idioma do site"
+  },
+  "hero": {
+    "available": "Disponível para freelance",
+    "greeting": "Olá, eu sou",
+    "roles": [
+      "Full-Stack Software Engineer",
+      "React, Node & TypeScript",
+      "Produtos com IA"
+    ],
+    "tagline": "Construo produto de ponta a ponta: da interface ao banco. Landing pages que convertem, sistemas web sob medida e automações com IA — rápidos, acessíveis e prontos para crescer com o seu negócio.",
+    "ctaPrimary": "Falar sobre seu projeto",
+    "ctaSecondary": "Ver projetos",
+    "scroll": "Rolar para o conteúdo"
+  },
+  "services": {
+    "eyebrow": "Serviços",
+    "title": "Como eu posso ajudar",
+    "subtitle": "Trabalho com escopo e prazo fechados. Você sabe o que vai receber e quanto custa antes de começar."
+  },
+  "serviceList": {
+    "landing": {
+      "title": "Landing page",
+      "description": "Página única focada em um objetivo: gerar contato, venda ou cadastro. Do layout ao ar, com formulário funcionando.",
+      "bullets": [
+        "Layout responsivo, do celular ao desktop",
+        "Carregamento rápido e SEO técnico",
+        "Formulário ligado ao seu e-mail ou CRM",
+        "Publicação e domínio configurados"
+      ]
+    },
+    "webapp": {
+      "title": "Sistema web full-stack",
+      "description": "Área logada, painel administrativo, dashboard. Cuido do front e do back: React na interface, Node e GraphQL na API, MongoDB ou PostgreSQL nos dados.",
+      "bullets": [
+        "Autenticação e controle de acesso",
+        "API própria em Node, GraphQL ou REST",
+        "Modelagem de dados e integrações",
+        "Arquitetura pensada para evoluir"
+      ]
+    },
+    "designSystem": {
+      "title": "Design system",
+      "description": "Biblioteca de componentes reutilizáveis e documentados, para o time parar de reescrever o mesmo botão em cada tela.",
+      "bullets": [
+        "Tokens de design e suporte a temas",
+        "Documentação viva no Storybook",
+        "Componentes acessíveis por padrão",
+        "Publicação como pacote interno"
+      ]
+    },
+    "performance": {
+      "title": "Resgate de projeto",
+      "description": "Site lento, quebrado no celular ou com código que ninguém consegue mais mexer? Eu diagnostico e arrumo.",
+      "bullets": [
+        "Auditoria de performance e Core Web Vitals",
+        "Correção de responsividade e acessibilidade",
+        "Atualização de dependências e build",
+        "Relatório do que foi feito e por quê"
+      ]
+    },
+    "ai": {
+      "title": "Automação com IA",
+      "description": "Agentes e integrações que tiram trabalho repetitivo do time. Na Inspira eu construí um agente de code review treinado nos padrões internos, rodando direto no pre-commit.",
+      "bullets": [
+        "Integração com a API da Claude ou da OpenAI",
+        "Agentes de revisão, triagem e extração",
+        "Automação de fluxos internos e relatórios",
+        "Medição do que de fato melhorou"
+      ]
+    }
+  },
+  "projects": {
+    "eyebrow": "Portfólio",
+    "title": "Projetos",
+    "subtitle": "Uma seleção do que já entreguei. Passe o mouse sobre um card para ver o projeto em movimento.",
+    "clientBadge": "Cliente real",
+    "viewLive": "Ver no ar",
+    "viewCode": "Ver código",
+    "opensInNewTab": "abre em uma nova aba"
+  },
+  "projectList": {
+    "lowcarbon": {
+      "title": "Low Carbon Future",
+      "description": "Site oficial de uma conferência internacional sobre descarbonização industrial. Programação, comitês e captação de leads por e-mail com dupla confirmação, publicado em Cloudflare Workers."
+    },
+    "analog": {
+      "title": "Analog Nostalgic",
+      "description": "Site-portfólio de um fotógrafo analógico: apresentação do artista e galeria das fotos em preto e branco."
+    },
+    "report": {
+      "title": "Página de relatório",
+      "description": "Relatório com múltiplos gráficos cujos dados vêm de um arquivo JSON, sem precisar mexer no código."
+    },
+    "decaltak": {
+      "title": "Decaltak",
+      "description": "Site para uma empresa de comunicação visual: serviços, galeria de trabalhos com visualização ampliada e formulário que abre a conversa no WhatsApp."
+    },
+    "fortmix": {
+      "title": "FortMix",
+      "description": "Landing page institucional para uma construtora, com apresentação de serviços e captação de contato."
+    },
+    "aulastube": {
+      "title": "AulasTube",
+      "description": "Plataforma de videoaulas com login, favoritos, player e comentários. A API original saiu do ar, então troquei só a camada de rede por dados de demonstração — o app segue navegável."
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre",
+    "title": "Quem está do outro lado",
+    "paragraphs": [
+      "Sou engenheiro de software full-stack. Trabalho na Inspira, uma legaltech, onde construo features de IA para produtos jurídicos — do desenho da solução junto com o time de produto até as métricas depois do lançamento.",
+      "Comecei em 2023 e no caminho passei por dashboards de vendas, aplicações desktop em Electron e sites de alto tráfego para clientes como a Cinemark. Na Inspira fui promovido de front-end para full-stack no primeiro ciclo de avaliação e virei Core Committer das duas principais bases de frontend da empresa em seis meses.",
+      "Antes de programar, passei dez anos na Assembleia Legislativa de Santa Catarina coordenando proposições e pautas de sessão. Parece sem relação, mas é de onde vem a parte que mais importa num freelance: entender o que o cliente precisa de verdade, respeitar prazo e conversar com quem não é técnico sem enrolação.",
+      "Nos projetos freelance você não recebe só um layout bonito: recebe um site rápido, acessível, indexável pelo Google e construído para aguentar o tempo — sem gambiarra que cobra o preço depois."
+    ],
+    "photoAlt": "Foto de Dênis Augusto Luft"
+  },
+  "skills": {
+    "eyebrow": "Stack",
+    "title": "Com o que eu trabalho",
+    "subtitle": "As ferramentas mudam; o critério para escolher, não. Uso o que resolve o seu problema sem virar dívida técnica.",
+    "howIWorkTitle": "Como eu trabalho"
+  },
+  "skillGroups": {
+    "core": "Linguagens e frameworks",
+    "styling": "Interface e design system",
+    "data": "Backend e dados",
+    "tooling": "Ferramentas e qualidade"
+  },
+  "howIWork": [
+    {
+      "title": "Escopo e prazo fechados",
+      "description": "Combinamos entrega, prazo e preço antes de começar. Sem surpresa no meio do caminho."
+    },
+    {
+      "title": "Comunicação direta",
+      "description": "Você fala comigo, não com um intermediário. Atualização a cada etapa entregue."
+    },
+    {
+      "title": "Feito para durar",
+      "description": "Código limpo e dependências atualizadas. Seu site não vira um problema seis meses depois."
+    },
+    {
+      "title": "Opinião, não só execução",
+      "description": "Se o caminho que você pediu não é o melhor para o seu objetivo, eu falo antes de fazer."
+    },
+    {
+      "title": "Rápido e acessível desde o início",
+      "description": "Performance e acessibilidade entram no projeto desde o começo, não como conserto depois."
+    },
+    {
+      "title": "Não sumo depois de entregar",
+      "description": "Ajustes e dúvidas nas primeiras semanas com o site no ar fazem parte da entrega."
+    }
+  ],
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Vamos conversar",
+    "subtitle": "Me conta o que você precisa e a gente continua a conversa no WhatsApp. Prefere e-mail ou LinkedIn? Os links estão aqui do lado.",
+    "whatsapp": "Chamar no WhatsApp",
+    "linkedin": "Perfil no LinkedIn",
+    "github": "Perfil no GitHub",
+    "email": "Enviar um e-mail",
+    "nameLabel": "Nome",
+    "namePlaceholder": "Como posso te chamar?",
+    "emailLabel": "E-mail ou telefone (opcional)",
+    "emailPlaceholder": "Para o caso de a conversa cair",
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Descreva rapidamente o que você precisa, o prazo e o orçamento previsto.",
+    "send": "Continuar no WhatsApp",
+    "errorRequired": "Preencha este campo.",
+    "errorEmail": "Digite um e-mail válido.",
+    "howItWorks": "Como funciona",
+    "steps": [
+      {
+        "title": "Você me conta",
+        "description": "Manda o que precisa, o prazo e o orçamento previsto."
+      },
+      {
+        "title": "Eu envio a proposta",
+        "description": "Escopo, etapas, prazo e preço fechados por escrito."
+      },
+      {
+        "title": "Aprovou, eu começo",
+        "description": "Entregas parciais para você acompanhar, sem caixa-preta."
+      }
+    ]
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}

@@ -1,13 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/profile-pic.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dênis Luft - Portfólio</title>
+    <meta name="theme-color" content="#05070c" />
+
+    <title>Dênis Luft — Full-Stack Software Engineer | Landing pages, sistemas web e IA</title>
+    <meta
+      name="description"
+      content="Engenheiro de software full-stack em React, Node e TypeScript. Crio landing pages que convertem, sistemas web sob medida e automações com IA — com escopo e prazo fechados."
+    />
+    <meta name="author" content="Dênis Augusto Luft" />
+    <link rel="canonical" href="https://denisluft8.github.io/portfolio-denisluft/" />
+
+    <!-- Open Graph: como o link aparece quando alguém compartilha no WhatsApp,
+         LinkedIn ou Slack. Sem isso o link vira texto cru. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:site_name" content="Dênis Luft" />
+    <meta property="og:url" content="https://denisluft8.github.io/portfolio-denisluft/" />
+    <meta property="og:title" content="Dênis Luft — Full-Stack Software Engineer" />
+    <meta
+      property="og:description"
+      content="Landing pages que convertem, sistemas web sob medida e automações com IA em React, Node e TypeScript."
+    />
+    <meta property="og:image" content="https://denisluft8.github.io/portfolio-denisluft/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Dênis Luft — Full-Stack Software Engineer" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dênis Luft — Full-Stack Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Landing pages que convertem, sistemas web sob medida e automações com IA em React, Node e TypeScript."
+    />
+    <meta name="twitter:image" content="https://denisluft8.github.io/portfolio-denisluft/og-image.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="./profile-pic.svg" />
+    <link rel="apple-touch-icon" href="./profile-pic.svg" />
+
+    <!-- As fontes vêm por <link>. O @font-face antigo apontava para uma URL de
+         CSS no `src`, então a Source Code Pro nunca chegou a carregar. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Code+Pro:wght@400;600;700&display=swap"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Dênis Augusto Luft",
+        "alternateName": "Dênis Luft",
+        "jobTitle": "Full-Stack Software Engineer",
+        "email": "mailto:denisluft8@gmail.com",
+        "url": "https://denisluft8.github.io/portfolio-denisluft/",
+        "worksFor": { "@type": "Organization", "name": "Inspira" },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Universidade Estácio de Sá"
+        },
+        "address": { "@type": "PostalAddress", "addressCountry": "BR" },
+        "knowsLanguage": ["pt-BR", "en"],
+        "sameAs": [
+          "https://www.linkedin.com/in/denisluft8/",
+          "https://github.com/denisluft8"
+        ],
+        "knowsAbout": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Node.js",
+          "GraphQL",
+          "MongoDB",
+          "PostgreSQL",
+          "Vue.js",
+          "Landing pages",
+          "Automação com IA",
+          "Acessibilidade web"
+        ],
+        "makesOffer": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Desenvolvimento de landing page" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Desenvolvimento de sistema web full-stack" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Automação e integração com IA" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Design system e biblioteca de componentes" } }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/Index.tsx"></script>
+    <noscript>
+      Este portfólio precisa de JavaScript habilitado. Você também pode falar
+      comigo pelo LinkedIn: https://www.linkedin.com/in/denisluft8/
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

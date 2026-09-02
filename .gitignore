@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Variáveis de ambiente locais (nunca versionar)
+.env
+.env.local
+.env.*.local
+
+# Cache incremental do TypeScript
+*.tsbuildinfo

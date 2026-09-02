@@ -2,32 +2,28 @@
   "name": "portfolio-denisluft",
   "homepage": "https://denisluft8.github.io/portfolio-denisluft/",
   "private": false,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit false --emitDeclarationOnly false || tsc -b",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "emailjs": "^4.0.1",
-    "emailjs-com": "^3.2.0",
-    "i18next": "^22.5.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-i18next": "^12.3.1",
-    "react-typed": "^1.2.0",
-    "styled-components": "^6.0.0-rc.3"
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "styled-components": "^6.1.19"
   },
   "devDependencies": {
-    "@types/react": "^18.2.8",
-    "@types/react-dom": "^18.2.4",
-    "@types/styled-components": "^5.1.26",
-    "@vitejs/plugin-react": "^2.2.0",
-    "gh-pages": "^4.0.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.2.3"
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "babel-plugin-styled-components": "^2.3.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
   }
 }

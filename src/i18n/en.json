@@ -1,0 +1,203 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "skills": "Stack",
+    "contact": "Contact",
+    "menu": "Open navigation menu",
+    "close": "Close navigation menu",
+    "langLabel": "Site language"
+  },
+  "hero": {
+    "available": "Available for freelance",
+    "greeting": "Hi, I'm",
+    "roles": [
+      "Full-Stack Software Engineer",
+      "React, Node & TypeScript",
+      "AI-driven products"
+    ],
+    "tagline": "I build products end to end, from the interface to the database. Landing pages that convert, custom web apps and AI automation — fast, accessible and ready to grow with your business.",
+    "ctaPrimary": "Tell me about your project",
+    "ctaSecondary": "See projects",
+    "scroll": "Scroll to content"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "How I can help",
+    "subtitle": "I work with fixed scope and deadlines. You know what you're getting and what it costs before we start."
+  },
+  "serviceList": {
+    "landing": {
+      "title": "Landing page",
+      "description": "A single page built around one goal: leads, sales or sign-ups. From layout to live, with a working form.",
+      "bullets": [
+        "Responsive layout, from phone to desktop",
+        "Fast loading and technical SEO",
+        "Form wired to your inbox or CRM",
+        "Deployment and domain set up"
+      ]
+    },
+    "webapp": {
+      "title": "Full-stack web app",
+      "description": "Logged-in areas, admin panels, dashboards. I handle both ends: React on the interface, Node and GraphQL on the API, MongoDB or PostgreSQL for the data.",
+      "bullets": [
+        "Authentication and access control",
+        "Your own API in Node, GraphQL or REST",
+        "Data modelling and integrations",
+        "Architecture built to evolve"
+      ]
+    },
+    "designSystem": {
+      "title": "Design system",
+      "description": "A library of reusable, documented components so your team stops rewriting the same button on every screen.",
+      "bullets": [
+        "Design tokens and theming support",
+        "Living documentation in Storybook",
+        "Accessible components by default",
+        "Published as an internal package"
+      ]
+    },
+    "performance": {
+      "title": "Project rescue",
+      "description": "Slow site, broken on mobile, or code nobody can touch anymore? I diagnose it and fix it.",
+      "bullets": [
+        "Performance and Core Web Vitals audit",
+        "Responsiveness and accessibility fixes",
+        "Dependency and build modernisation",
+        "A report of what changed and why"
+      ]
+    },
+    "ai": {
+      "title": "AI automation",
+      "description": "Agents and integrations that take repetitive work off your team. At Inspira I built a code review agent trained on our internal patterns, running straight from the pre-commit hook.",
+      "bullets": [
+        "Integration with the Claude or OpenAI API",
+        "Agents for review, triage and extraction",
+        "Internal workflow and reporting automation",
+        "Measurement of what actually improved"
+      ]
+    }
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Projects",
+    "subtitle": "A selection of what I've shipped. Hover a card to see the project in motion.",
+    "clientBadge": "Client work",
+    "viewLive": "View live",
+    "viewCode": "View code",
+    "opensInNewTab": "opens in a new tab"
+  },
+  "projectList": {
+    "lowcarbon": {
+      "title": "Low Carbon Future",
+      "description": "Official site for an international conference on industrial decarbonisation. Schedule, committees and email lead capture with double opt-in, deployed on Cloudflare Workers."
+    },
+    "analog": {
+      "title": "Analog Nostalgic",
+      "description": "Portfolio site for an analogue photographer: an artist introduction and a black-and-white gallery of the work."
+    },
+    "report": {
+      "title": "Report page",
+      "description": "A report with multiple charts whose data comes from a JSON file — no code changes needed."
+    },
+    "decaltak": {
+      "title": "Decaltak",
+      "description": "Site for a visual communication company: services, a work gallery with lightbox, and a contact form that opens the conversation on WhatsApp."
+    },
+    "fortmix": {
+      "title": "FortMix",
+      "description": "Institutional landing page for a construction company, presenting services and capturing leads."
+    },
+    "aulastube": {
+      "title": "AulasTube",
+      "description": "Video lesson platform with login, favourites, player and comments. The original API went offline, so I swapped only the network layer for demo data — the app is still fully navigable."
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Who you'll be working with",
+    "paragraphs": [
+      "I'm a full-stack software engineer. I work at Inspira, a legal-tech company, building AI features for legal products — from shaping the solution with the product team to watching the metrics after launch.",
+      "I started in 2023 and along the way built sales dashboards, Electron desktop apps and high-traffic sites for clients such as Cinemark. At Inspira I was promoted from front-end to full-stack in my first review cycle, and became Core Committer on both of the company's flagship frontend codebases within six months.",
+      "Before writing code, I spent ten years at the Santa Catarina Legislative Assembly coordinating legislative proposals and session agendas. It sounds unrelated, but it's where the part that matters most in freelance work comes from: understanding what the client actually needs, respecting deadlines, and talking to non-technical people without the jargon.",
+      "I bring that same care to freelance work. You don't just get a good-looking layout: you get a fast, accessible, search-indexable site built to hold up over time — no shortcuts that cost you later."
+    ],
+    "photoAlt": "Photo of Dênis Augusto Luft"
+  },
+  "skills": {
+    "eyebrow": "Stack",
+    "title": "What I work with",
+    "subtitle": "Tools change; the judgement for picking them doesn't. I use what solves your problem without becoming technical debt.",
+    "howIWorkTitle": "How I work"
+  },
+  "skillGroups": {
+    "core": "Languages and frameworks",
+    "styling": "Interface and design system",
+    "data": "Backend and data",
+    "tooling": "Tooling and quality"
+  },
+  "howIWork": [
+    {
+      "title": "Fixed scope and deadline",
+      "description": "We agree on deliverables, timeline and price before starting. No surprises halfway through."
+    },
+    {
+      "title": "Direct communication",
+      "description": "You talk to me, not to a middleman. An update at every milestone delivered."
+    },
+    {
+      "title": "Built to last",
+      "description": "Clean code and up-to-date dependencies. Your site doesn't become a problem six months from now."
+    },
+    {
+      "title": "Opinions, not just execution",
+      "description": "If what you asked for isn't the best path to your goal, I'll say so before building it."
+    },
+    {
+      "title": "Fast and accessible from day one",
+      "description": "Performance and accessibility are part of the build, not a patch applied afterwards."
+    },
+    {
+      "title": "I don't disappear after delivery",
+      "description": "Tweaks and questions in the first weeks after launch are part of the job."
+    }
+  ],
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "subtitle": "Tell me what you need and we'll carry on in WhatsApp. Prefer email or LinkedIn? The links are right here.",
+    "whatsapp": "Message on WhatsApp",
+    "linkedin": "LinkedIn profile",
+    "github": "GitHub profile",
+    "email": "Send an email",
+    "nameLabel": "Name",
+    "namePlaceholder": "What should I call you?",
+    "emailLabel": "Email or phone (optional)",
+    "emailPlaceholder": "In case the chat drops",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Briefly describe what you need, your timeline and your budget.",
+    "send": "Continue on WhatsApp",
+    "errorRequired": "This field is required.",
+    "errorEmail": "Enter a valid email address.",
+    "howItWorks": "How it works",
+    "steps": [
+      {
+        "title": "You tell me",
+        "description": "Send over what you need, the timeline and your budget."
+      },
+      {
+        "title": "I send a proposal",
+        "description": "Scope, milestones, deadline and price fixed in writing."
+      },
+      {
+        "title": "You approve, I start",
+        "description": "Partial deliveries so you can follow along — no black box."
+      }
+    ]
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

@@ -1,22 +1,32 @@
-import { Header } from "./Components/Header/Header";
-import { LanguageProvider } from "./contexts/LanguageContext";
-import { About, Contact, Home, Projects, Skills } from "./Pages";
-import { GlobalStyle } from "./Styles/globalStyles";
+import { Header } from "./components/Header";
+import { LanguageProvider } from "./i18n/LanguageContext";
+import { About } from "./sections/About";
+import { Contact } from "./sections/Contact";
+import { Footer } from "./sections/Footer";
+import { Hero } from "./sections/Hero";
+import { Projects } from "./sections/Projects";
+import { Services } from "./sections/Services";
+import { Skills } from "./sections/Skills";
+import { GlobalStyle } from "./styles/globalStyles";
 
-function App() {
+/**
+ * Ordem pensada para conversão: quem chega vê a proposta, o que pode contratar
+ * e a prova de que funciona, antes da biografia.
+ */
+export default function App() {
   return (
-    <>
-      <LanguageProvider>
-        <GlobalStyle />
-        <Header />
-        <Home />
+    <LanguageProvider>
+      <GlobalStyle />
+      <Header />
+      <main id="main">
+        <Hero />
+        <Services />
+        <Projects />
         <About />
         <Skills />
-        <Projects />
         <Contact />
-      </LanguageProvider>
-    </>
+      </main>
+      <Footer />
+    </LanguageProvider>
   );
 }
-
-export default App;
