@@ -83,7 +83,7 @@
   "projects": {
     "eyebrow": "Portfolio",
     "title": "Projects",
-    "subtitle": "A selection of what I've shipped. Hover a card to see the project in motion.",
+    "subtitle": "A selection of what I've shipped — each card shows the project in motion.",
     "clientBadge": "Client work",
     "viewLive": "View live",
     "viewCode": "View code",

@@ -83,7 +83,7 @@
   "projects": {
     "eyebrow": "Portfólio",
     "title": "Projetos",
-    "subtitle": "Uma seleção do que já entreguei. Passe o mouse sobre um card para ver o projeto em movimento.",
+    "subtitle": "Uma seleção do que já entreguei — cada card mostra o projeto em movimento.",
     "clientBadge": "Cliente real",
     "viewLive": "Ver no ar",
     "viewCode": "Ver código",
