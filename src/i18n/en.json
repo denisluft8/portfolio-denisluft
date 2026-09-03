@@ -71,7 +71,7 @@
     },
     "ai": {
       "title": "AI automation",
-      "description": "Agents and integrations that take repetitive work off your team. At Inspira I built a code review agent trained on our internal patterns, running straight from the pre-commit hook.",
+      "description": "Agents and integrations that take repetitive work off your team. I built a code review agent trained on the team's internal patterns, running straight from the pre-commit hook.",
       "bullets": [
         "Integration with the Claude or OpenAI API",
         "Agents for review, triage and extraction",
@@ -119,8 +119,8 @@
     "eyebrow": "About",
     "title": "Who you'll be working with",
     "paragraphs": [
-      "I'm a full-stack software engineer. I work at Inspira, a legal-tech company, building AI features for legal products — from shaping the solution with the product team to watching the metrics after launch.",
-      "I started in 2023 and along the way built sales dashboards, Electron desktop apps and high-traffic sites for clients such as Cinemark. At Inspira I was promoted from front-end to full-stack in my first review cycle, and became Core Committer on both of the company's flagship frontend codebases within six months.",
+      "I'm a full-stack software engineer. I work on the product team of an AI platform for the legal sector, building features that professionals rely on every working day — from shaping the solution with product to watching the metrics after launch.",
+      "I started in 2023 and along the way built sales dashboards, Electron desktop apps and high-traffic sites for clients such as Cinemark. On my current team I was promoted from front-end to full-stack in my first review cycle, and became Core Committer on both of the company's flagship frontend codebases within six months.",
       "Before writing code, I spent ten years at the Santa Catarina Legislative Assembly coordinating legislative proposals and session agendas. It sounds unrelated, but it's where the part that matters most in freelance work comes from: understanding what the client actually needs, respecting deadlines, and talking to non-technical people without the jargon.",
       "I bring that same care to freelance work. You don't just get a good-looking layout: you get a fast, accessible, search-indexable site built to hold up over time — no shortcuts that cost you later."
     ],

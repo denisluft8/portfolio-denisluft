@@ -71,7 +71,7 @@
     },
     "ai": {
       "title": "Automação com IA",
-      "description": "Agentes e integrações que tiram trabalho repetitivo do time. Na Inspira eu construí um agente de code review treinado nos padrões internos, rodando direto no pre-commit.",
+      "description": "Agentes e integrações que tiram trabalho repetitivo do time. Construí um agente de code review treinado nos padrões internos da equipe, rodando direto no pre-commit.",
       "bullets": [
         "Integração com a API da Claude ou da OpenAI",
         "Agentes de revisão, triagem e extração",
@@ -119,8 +119,8 @@
     "eyebrow": "Sobre",
     "title": "Quem está do outro lado",
     "paragraphs": [
-      "Sou engenheiro de software full-stack. Trabalho na Inspira, uma legaltech, onde construo features de IA para produtos jurídicos — do desenho da solução junto com o time de produto até as métricas depois do lançamento.",
-      "Comecei em 2023 e no caminho passei por dashboards de vendas, aplicações desktop em Electron e sites de alto tráfego para clientes como a Cinemark. Na Inspira fui promovido de front-end para full-stack no primeiro ciclo de avaliação e virei Core Committer das duas principais bases de frontend da empresa em seis meses.",
+      "Sou engenheiro de software full-stack. Trabalho no time de produto de uma plataforma de IA para o setor jurídico, construindo features usadas todos os dias por profissionais que dependem delas para trabalhar — do desenho da solução junto com produto até as métricas depois do lançamento.",
+      "Comecei em 2023 e no caminho passei por dashboards de vendas, aplicações desktop em Electron e sites de alto tráfego para clientes como a Cinemark. No time atual fui promovido de front-end para full-stack no primeiro ciclo de avaliação e virei Core Committer das duas principais bases de frontend da empresa em seis meses.",
       "Antes de programar, passei dez anos na Assembleia Legislativa de Santa Catarina coordenando proposições e pautas de sessão. Parece sem relação, mas é de onde vem a parte que mais importa num freelance: entender o que o cliente precisa de verdade, respeitar prazo e conversar com quem não é técnico sem enrolação.",
       "Nos projetos freelance você não recebe só um layout bonito: recebe um site rápido, acessível, indexável pelo Google e construído para aguentar o tempo — sem gambiarra que cobra o preço depois."
     ],
