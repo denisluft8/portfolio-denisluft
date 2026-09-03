@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Início",
-    "services": "Serviços",
+    "services": "O que faço",
     "projects": "Projetos",
     "about": "Sobre",
     "skills": "Stack",
@@ -11,22 +11,22 @@
     "langLabel": "Idioma do site"
   },
   "hero": {
-    "available": "Disponível para freelance",
+    "available": "Aberto a novos projetos",
     "greeting": "Olá, eu sou",
     "roles": [
       "Full-Stack Software Engineer",
       "React, Node & TypeScript",
       "Produtos com IA"
     ],
-    "tagline": "Construo produto de ponta a ponta: da interface ao banco. Landing pages que convertem, sistemas web sob medida e automações com IA — rápidos, acessíveis e prontos para crescer com o seu negócio.",
-    "ctaPrimary": "Falar sobre seu projeto",
+    "tagline": "Construo produto de ponta a ponta, da interface ao banco. Trabalho com landing pages, sistemas web e automações com IA — sempre com atenção a performance e acessibilidade.",
+    "ctaPrimary": "Entrar em contato",
     "ctaSecondary": "Ver projetos",
     "scroll": "Rolar para o conteúdo"
   },
   "services": {
-    "eyebrow": "Serviços",
-    "title": "Como eu posso ajudar",
-    "subtitle": "Trabalho com escopo e prazo fechados. Você sabe o que vai receber e quanto custa antes de começar."
+    "eyebrow": "O que eu faço",
+    "title": "Áreas em que trabalho",
+    "subtitle": "O tipo de projeto que costumo tocar, do primeiro rascunho até o site no ar."
   },
   "serviceList": {
     "landing": {
@@ -121,8 +121,8 @@
     "paragraphs": [
       "Sou engenheiro de software full-stack. Trabalho no time de produto de uma plataforma de IA para o setor jurídico, construindo features usadas todos os dias por profissionais que dependem delas para trabalhar — do desenho da solução junto com produto até as métricas depois do lançamento.",
       "Comecei em 2023 e no caminho passei por dashboards de vendas, aplicações desktop em Electron e sites de alto tráfego para clientes como a Cinemark. No time atual fui promovido de front-end para full-stack no primeiro ciclo de avaliação e virei Core Committer das duas principais bases de frontend da empresa em seis meses.",
-      "Antes de programar, passei dez anos na Assembleia Legislativa de Santa Catarina coordenando proposições e pautas de sessão. Parece sem relação, mas é de onde vem a parte que mais importa num freelance: entender o que o cliente precisa de verdade, respeitar prazo e conversar com quem não é técnico sem enrolação.",
-      "Nos projetos freelance você não recebe só um layout bonito: recebe um site rápido, acessível, indexável pelo Google e construído para aguentar o tempo — sem gambiarra que cobra o preço depois."
+      "Antes de programar, passei dez anos na Assembleia Legislativa de Santa Catarina coordenando proposições e pautas de sessão. Parece sem relação, mas é de onde vem a parte que mais importa em qualquer projeto: entender o que a pessoa precisa de verdade, respeitar prazo e conversar com quem não é técnico sem enrolação.",
+      "Em cada projeto eu trago o mesmo cuidado: não é só um layout bonito, é um site rápido, acessível, indexável pelo Google e construído para aguentar o tempo — sem gambiarra que cobra o preço depois."
     ],
     "photoAlt": "Foto de Dênis Augusto Luft"
   },
@@ -140,8 +140,8 @@
   },
   "howIWork": [
     {
-      "title": "Escopo e prazo fechados",
-      "description": "Combinamos entrega, prazo e preço antes de começar. Sem surpresa no meio do caminho."
+      "title": "Combinado claro desde o começo",
+      "description": "Escopo, etapas e prazo alinhados antes de começar. Sem surpresa no meio do caminho."
     },
     {
       "title": "Comunicação direta",
@@ -167,7 +167,7 @@
   "contact": {
     "eyebrow": "Contato",
     "title": "Vamos conversar",
-    "subtitle": "Me conta o que você precisa e a gente continua a conversa no WhatsApp. Prefere e-mail ou LinkedIn? Os links estão aqui do lado.",
+    "subtitle": "Se quiser conversar sobre um projeto, tirar uma dúvida ou só trocar ideia, é só chamar. Respondo por WhatsApp, e-mail ou LinkedIn.",
     "whatsapp": "Chamar no WhatsApp",
     "linkedin": "Perfil no LinkedIn",
     "github": "Perfil no GitHub",
@@ -177,25 +177,10 @@
     "emailLabel": "E-mail ou telefone (opcional)",
     "emailPlaceholder": "Para o caso de a conversa cair",
     "messageLabel": "Mensagem",
-    "messagePlaceholder": "Descreva rapidamente o que você precisa, o prazo e o orçamento previsto.",
+    "messagePlaceholder": "Conte um pouco sobre o que você tem em mente.",
     "send": "Continuar no WhatsApp",
     "errorRequired": "Preencha este campo.",
-    "errorEmail": "Digite um e-mail válido.",
-    "howItWorks": "Como funciona",
-    "steps": [
-      {
-        "title": "Você me conta",
-        "description": "Manda o que precisa, o prazo e o orçamento previsto."
-      },
-      {
-        "title": "Eu envio a proposta",
-        "description": "Escopo, etapas, prazo e preço fechados por escrito."
-      },
-      {
-        "title": "Aprovou, eu começo",
-        "description": "Entregas parciais para você acompanhar, sem caixa-preta."
-      }
-    ]
+    "errorEmail": "Digite um e-mail válido."
   },
   "footer": {
     "rights": "Todos os direitos reservados."

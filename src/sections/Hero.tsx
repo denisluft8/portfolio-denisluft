@@ -8,7 +8,6 @@ import {
 } from "../components/ui/primitives";
 import { useTranslation } from "../hooks/useTranslation";
 import { useTypewriter } from "../hooks/useTypewriter";
-import { WHATSAPP_URL } from "../data/contact";
 import { theme } from "../styles/theme";
 
 const Section = styled.section`
@@ -196,13 +195,9 @@ export const Hero = () => {
         </Role>
         <Tagline>{t.hero.tagline}</Tagline>
         <Actions>
-          <PrimaryLink
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t.hero.ctaPrimary}
-          </PrimaryLink>
+          {/* leva à seção de contato, onde estão todos os canais — abrir o
+              WhatsApp direto do topo tinha cara de anúncio */}
+          <PrimaryLink href="#contact">{t.hero.ctaPrimary}</PrimaryLink>
           <GhostLink href="#projects">{t.hero.ctaSecondary}</GhostLink>
         </Actions>
       </Inner>

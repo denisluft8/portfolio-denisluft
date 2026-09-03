@@ -4,12 +4,10 @@ import {
   Card,
   Container,
   Eyebrow,
-  PrimaryLink,
   SectionLead,
   SectionTitle,
 } from "../components/ui/primitives";
 import { services } from "../data/services";
-import { WHATSAPP_URL } from "../data/contact";
 import { useTranslation } from "../hooks/useTranslation";
 import { theme } from "../styles/theme";
 
@@ -109,12 +107,6 @@ const Bullets = styled.ul`
   }
 `;
 
-const Cta = styled.div`
-  margin-top: ${theme.space(12)};
-  display: flex;
-  justify-content: center;
-`;
-
 export const Services = () => {
   const { t } = useTranslation();
 
@@ -163,17 +155,6 @@ export const Services = () => {
           })}
         </Grid>
 
-        <Reveal delay={120}>
-          <Cta>
-            <PrimaryLink
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {t.hero.ctaPrimary}
-            </PrimaryLink>
-          </Cta>
-        </Reveal>
       </Container>
     </Section>
   );

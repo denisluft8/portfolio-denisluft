@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Home",
-    "services": "Services",
+    "services": "What I do",
     "projects": "Projects",
     "about": "About",
     "skills": "Stack",
@@ -11,22 +11,22 @@
     "langLabel": "Site language"
   },
   "hero": {
-    "available": "Available for freelance",
+    "available": "Open to new projects",
     "greeting": "Hi, I'm",
     "roles": [
       "Full-Stack Software Engineer",
       "React, Node & TypeScript",
       "AI-driven products"
     ],
-    "tagline": "I build products end to end, from the interface to the database. Landing pages that convert, custom web apps and AI automation — fast, accessible and ready to grow with your business.",
-    "ctaPrimary": "Tell me about your project",
+    "tagline": "I build products end to end, from the interface to the database. I work with landing pages, web apps and AI automation — always with an eye on performance and accessibility.",
+    "ctaPrimary": "Get in touch",
     "ctaSecondary": "See projects",
     "scroll": "Scroll to content"
   },
   "services": {
-    "eyebrow": "Services",
-    "title": "How I can help",
-    "subtitle": "I work with fixed scope and deadlines. You know what you're getting and what it costs before we start."
+    "eyebrow": "What I do",
+    "title": "Areas I work in",
+    "subtitle": "The kind of project I usually take on, from the first sketch to the site going live."
   },
   "serviceList": {
     "landing": {
@@ -121,8 +121,8 @@
     "paragraphs": [
       "I'm a full-stack software engineer. I work on the product team of an AI platform for the legal sector, building features that professionals rely on every working day — from shaping the solution with product to watching the metrics after launch.",
       "I started in 2023 and along the way built sales dashboards, Electron desktop apps and high-traffic sites for clients such as Cinemark. On my current team I was promoted from front-end to full-stack in my first review cycle, and became Core Committer on both of the company's flagship frontend codebases within six months.",
-      "Before writing code, I spent ten years at the Santa Catarina Legislative Assembly coordinating legislative proposals and session agendas. It sounds unrelated, but it's where the part that matters most in freelance work comes from: understanding what the client actually needs, respecting deadlines, and talking to non-technical people without the jargon.",
-      "I bring that same care to freelance work. You don't just get a good-looking layout: you get a fast, accessible, search-indexable site built to hold up over time — no shortcuts that cost you later."
+      "Before writing code, I spent ten years at the Santa Catarina Legislative Assembly coordinating legislative proposals and session agendas. It sounds unrelated, but it's where the part that matters most in any project comes from: understanding what someone actually needs, respecting deadlines, and talking to non-technical people without the jargon.",
+      "I bring the same care to every project: not just a good-looking layout, but a fast, accessible, search-indexable site built to hold up over time — no shortcuts that cost you later."
     ],
     "photoAlt": "Photo of Dênis Augusto Luft"
   },
@@ -140,8 +140,8 @@
   },
   "howIWork": [
     {
-      "title": "Fixed scope and deadline",
-      "description": "We agree on deliverables, timeline and price before starting. No surprises halfway through."
+      "title": "Clear terms from the start",
+      "description": "Scope, milestones and timeline agreed before we begin. No surprises halfway through."
     },
     {
       "title": "Direct communication",
@@ -167,7 +167,7 @@
   "contact": {
     "eyebrow": "Contact",
     "title": "Let's talk",
-    "subtitle": "Tell me what you need and we'll carry on in WhatsApp. Prefer email or LinkedIn? The links are right here.",
+    "subtitle": "If you'd like to talk about a project, ask something or just say hi, reach out. I reply on WhatsApp, email or LinkedIn.",
     "whatsapp": "Message on WhatsApp",
     "linkedin": "LinkedIn profile",
     "github": "GitHub profile",
@@ -177,25 +177,10 @@
     "emailLabel": "Email or phone (optional)",
     "emailPlaceholder": "In case the chat drops",
     "messageLabel": "Message",
-    "messagePlaceholder": "Briefly describe what you need, your timeline and your budget.",
+    "messagePlaceholder": "Tell me a bit about what you have in mind.",
     "send": "Continue on WhatsApp",
     "errorRequired": "This field is required.",
-    "errorEmail": "Enter a valid email address.",
-    "howItWorks": "How it works",
-    "steps": [
-      {
-        "title": "You tell me",
-        "description": "Send over what you need, the timeline and your budget."
-      },
-      {
-        "title": "I send a proposal",
-        "description": "Scope, milestones, deadline and price fixed in writing."
-      },
-      {
-        "title": "You approve, I start",
-        "description": "Partial deliveries so you can follow along — no black box."
-      }
-    ]
+    "errorEmail": "Enter a valid email address."
   },
   "footer": {
     "rights": "All rights reserved."

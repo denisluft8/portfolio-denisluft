@@ -46,56 +46,6 @@ const Channels = styled.div`
   gap: ${theme.space(3)};
 `;
 
-const Steps = styled.ol`
-  counter-reset: step;
-  list-style: none;
-  margin: ${theme.space(8)} 0 0;
-  padding: 0;
-  display: grid;
-  gap: ${theme.space(5)};
-`;
-
-const StepsTitle = styled.h3`
-  font-family: ${theme.font.mono};
-  font-size: ${theme.size.sm};
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: ${theme.color.accent};
-  margin-top: ${theme.space(8)};
-`;
-
-const Step = styled.li`
-  counter-increment: step;
-  display: grid;
-  grid-template-columns: 32px 1fr;
-  gap: ${theme.space(4)};
-  align-items: start;
-
-  &::before {
-    content: counter(step);
-    display: grid;
-    place-items: center;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: 1px solid ${theme.color.borderStrong};
-    font-family: ${theme.font.mono};
-    font-size: ${theme.size.xs};
-    color: ${theme.color.accent};
-  }
-
-  h4 {
-    font-size: ${theme.size.base};
-    color: ${theme.color.text};
-    margin-bottom: 2px;
-  }
-
-  p {
-    font-size: ${theme.size.sm};
-    color: ${theme.color.textMuted};
-  }
-`;
-
 const Channel = styled.a`
   display: flex;
   align-items: center;
@@ -303,17 +253,6 @@ export const Contact = () => {
               </Channel>
             </Channels>
 
-            <StepsTitle>{t.contact.howItWorks}</StepsTitle>
-            <Steps>
-              {t.contact.steps.map((step) => (
-                <Step key={step.title}>
-                  <div>
-                    <h4>{step.title}</h4>
-                    <p>{step.description}</p>
-                  </div>
-                </Step>
-              ))}
-            </Steps>
           </Reveal>
 
           <Reveal delay={90}>
